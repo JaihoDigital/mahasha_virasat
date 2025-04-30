@@ -1,0 +1,130 @@
+/* Custom styles for Mahasha Virasat website */
+
+body {
+    padding-top: 5rem; /* Add padding to the top for the fixed navbar, Bootstrap's default is sometimes not enough*/
+    font-family: 'Arial', sans-serif; /* Use a more general font */
+}
+
+.navbar-brand {
+    font-size: 1.8rem;  /* Slightly larger brand font */
+    font-weight: bold;
+    color: #007bff; /* Use Bootstrap's primary color */
+}
+
+.navbar-brand:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #007bff;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px; /* Increased max-width for larger screens */
+}
+
+.footer {
+    background-color: #f8f9fa; /* Light background for the footer, same as Bootstrap's default */
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 3rem;
+    border-top: 1px solid #e9ecef; /* Add a border for separation */
+}
+
+/* Custom styles for specific sections or elements can be added here */
+/* For example: */
+.jumbotron {
+  background-color: #e9ecef;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+}
+
+.jumbotron h1 {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  color: #34495e;
+  font-size: 1.2rem;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #007bff; /* Add a border */
+    padding-bottom: 0.5rem;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  color: #34495e;
+  font-size: 1.1rem;
+}
+
+/* Style for buttons,  you can extend */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  background-color: transparent;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
+/* Responsive adjustments (optional -  Bootstrap handles most) */
+@media (max-width: 768px) {  /* Medium screens and smaller */
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .nav-item {
+        margin-right: 0.5rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+}
