@@ -25,6 +25,26 @@
       }
     </style>
 </head>
+<!-- Chatbot Toggle Button -->
+<div id="chatbot-toggle" class="chatbot-toggle">
+    💬
+</div>
+
+<!-- Chatbot Window -->
+<div id="chatbot-window" class="chatbot-window d-none">
+    <div class="chatbot-header">
+        <span>Chat with us</span>
+        <button id="chatbot-close" class="close-btn">&times;</button>
+    </div>
+    <div class="chatbot-body" id="chatbot-body">
+        <div class="chatbot-message">Hello! How can I help you?</div>
+    </div>
+    <div class="chatbot-footer">
+        <input type="text" id="chatbot-input" placeholder="Type a message..." />
+        <button id="chatbot-send">Send</button>
+    </div>
+</div>
+
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container">
